@@ -1,0 +1,1 @@
+give @s minecraft:poisonous_potato[custom_name='["",{"text":"Bulklight","italic":false}]',custom_model_data=3,max_stack_size=1,food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:999999999},custom_data={"bulklight":true},rarity=uncommon] 1

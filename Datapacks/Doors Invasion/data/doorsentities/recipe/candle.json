@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "X",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:flower_pot"
+        },
+        "X": {
+            "item": "minecraft:candle"
+        }
+    },
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "[\"\",{\"text\":\"Candle\",\"italic\":false}]",
+            "minecraft:custom_model_data": 11,
+            "!minecraft:food": {},
+            "minecraft:custom_data": {
+                "candle": true
+            },
+            "minecraft:rarity": "uncommon",
+            "max_stack_size": 1
+        }
+    }
+}

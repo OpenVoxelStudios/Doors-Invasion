@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:poisonous_potato"
+                    ],
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "vitamins": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "doorsentities:items/vitamins/toggle"
+    }
+}

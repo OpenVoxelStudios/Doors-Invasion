@@ -1,0 +1,3 @@
+tag @s add giggles.hurted
+execute at @s as @e[tag=aj.giggles.root] if score @s giggles.attackids = @a[tag=giggles.hurted,sort=nearest,limit=1] giggles.attackids at @s if entity @s[tag=giggles.attacking] run scoreboard players remove @s giggles 2
+execute at @s as @e[tag=aj.giggles.root] if score @s giggles.attackids = @a[tag=giggles.hurted,sort=nearest,limit=1] giggles.attackids at @s if entity @s[tag=giggles.attacking] if score @s giggles matches ..0 run tag @a[tag=giggles.hurted,limit=1,sort=nearest] add giggles.saved

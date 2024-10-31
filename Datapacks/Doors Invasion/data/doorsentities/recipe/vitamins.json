@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:sugar"
+        }
+    ],
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+            "minecraft:custom_name": "[\"\",{\"text\":\"Vitamins\",\"italic\":false}]",
+            "minecraft:custom_model_data": 9,
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 999999999
+            },
+            "minecraft:custom_data": {
+                "vitamins": true
+            },
+            "minecraft:rarity": "uncommon",
+            "max_stack_size": 3
+        }
+    }
+}

@@ -1,0 +1,95 @@
+{
+	"credit": "Made by Kubik (@kodeurkubik)",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "doorsentities:item/vitamins"
+	},
+	"elements": [
+		{
+			"from": [5.51893, 0, 5.89216],
+			"to": [10.51893, 7, 10.89216],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8.37322]},
+			"faces": {
+				"north": {"uv": [2.5, 4, 0, 7.5], "texture": "#1"},
+				"east": {"uv": [5.5, 0, 3, 3.5], "texture": "#1"},
+				"south": {"uv": [2.5, 0, 0, 3.5], "texture": "#1"},
+				"west": {"uv": [5.5, 4, 3, 7.5], "texture": "#1"},
+				"up": {"uv": [8.5, 0, 6, 2.5], "texture": "#1"},
+				"down": {"uv": [8.5, 5.5, 6, 3], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5.84216, 7, 6.21538],
+			"to": [10.34216, 7.5, 10.71538],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8.37322]},
+			"faces": {
+				"north": {"uv": [14, 6.5, 11.5, 7], "texture": "#1"},
+				"east": {"uv": [14, 5.5, 11.5, 6], "texture": "#1"},
+				"south": {"uv": [14, 4.5, 11.5, 5], "texture": "#1"},
+				"west": {"uv": [14, 7.5, 11.5, 8], "texture": "#1"},
+				"up": {"uv": [8.5, 6, 6, 8.5], "texture": "#1"},
+				"down": {"uv": [2.5, 10.5, 0, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5.49999, 8.5, 10.65],
+			"to": [10.49999, 13.5, 12.65],
+			"rotation": {"angle": -45, "axis": "z", "origin": [7.99999, 11, 11.65]},
+			"faces": {
+				"north": {"uv": [11.5, 2.5, 9, 0], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [8, 11, 5.5, 12], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [5.5, 8, 3, 10.5], "texture": "#1"},
+				"west": {"uv": [14, 3, 11.5, 4], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [13.5, 10, 11, 11], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [5, 11, 2.5, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5.34216, 3, 5.71538],
+			"to": [9.34216, 6, 9.71538],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8.37322]},
+			"faces": {
+				"north": {"uv": [10.5, 10, 8.5, 11.5], "texture": "#1"},
+				"east": {"uv": [11, 8, 9, 9.5], "texture": "#1"},
+				"south": {"uv": [8, 9, 6, 10.5], "texture": "#1"},
+				"west": {"uv": [2, 11, 0, 12.5], "texture": "#1"},
+				"up": {"uv": [11, 3, 9, 5], "texture": "#1"},
+				"down": {"uv": [11, 7.5, 9, 5.5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0.5, -0.25],
+			"scale": [0.48, 0.48, 0.48]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.48, 0.48, 0.48]
+		},
+		"firstperson_righthand": {
+			"rotation": [144.49, 53.91, -141.98],
+			"translation": [0, 3.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [123, 95, -129],
+			"translation": [0, 4.5, 0]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [154.53, 24.04, -152.54],
+			"translation": [0.25, 2.25, 0],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	},
+	"groups": [
+		{
+			"name": "vitamin",
+			"origin": [7.75, 3.5, 8.25],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

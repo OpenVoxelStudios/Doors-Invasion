@@ -1,0 +1,3 @@
+scoreboard players set tptoground globals 250
+
+function doorsentities:gamefunctions/tptoground_raycast

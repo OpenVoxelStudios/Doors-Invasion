@@ -1,0 +1,3 @@
+execute if items entity @s weapon.* poisonous_potato[custom_data~{"candle":true},custom_model_data=14] run return run scoreboard players remove @s candle.durability 1
+execute if items entity @s weapon.* poisonous_potato[custom_data~{"candle":true},custom_model_data=15] run return run scoreboard players remove @s candle.durability 1
+execute if items entity @s weapon.* poisonous_potato[custom_data~{"candle":true},custom_model_data=16] run return run scoreboard players remove @s candle.durability 1

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:gray_dye",
+            "count": 1,
+            "components": {
+                "minecraft:custom_model_data": 7
+            }
+        },
+        "title": {
+            "text": "Helping Hand"
+        },
+        "description": [
+            {
+                "text": "\"You got a little something right... there.\"\n",
+                "color": "gray"
+            },
+            {
+                "text": "Knock Giggle off of another player's face.",
+                "color": "white"
+            }
+        ],
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "doorsentities:doors/giggles",
+    "criteria": {
+        "nuhuh": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "sends_telemetry_event": true
+}

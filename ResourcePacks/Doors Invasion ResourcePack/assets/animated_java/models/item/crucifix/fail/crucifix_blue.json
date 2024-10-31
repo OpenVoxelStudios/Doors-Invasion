@@ -1,0 +1,11 @@
+{
+	"parent": "animated_java:item/crucifix/default/crucifix_blue",
+	"textures": {
+		"0": "animated_java:item/crucifix/chain_fail",
+		"5": "animated_java:item/crucifix/left_sigil_fail",
+		"6": "animated_java:item/crucifix/right_sigil_fail",
+		"7": "animated_java:item/crucifix/chain_fade_fail",
+		"12": "animated_java:item/crucifix/crucifix_retexture_red",
+		"14": "animated_java:item/crucifix/crucifix_guiding_light_red"
+	}
+}

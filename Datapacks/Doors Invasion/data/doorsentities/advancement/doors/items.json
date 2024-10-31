@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:gray_dye",
+            "count": 1,
+            "components": {
+                "minecraft:custom_model_data": 8
+            }
+        },
+        "title": {
+            "text": "Items"
+        },
+        "description": {
+            "text": ""
+        },
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "doorsentities:doors/root",
+    "criteria": {
+        "nuhuh": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "sends_telemetry_event": true
+}

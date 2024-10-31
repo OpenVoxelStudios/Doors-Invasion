@@ -1,0 +1,104 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/poisonous_potato"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "doorsentities:item/flashlight_off"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "doorsentities:item/flashlight_on"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "doorsentities:item/bulklight_off"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "doorsentities:item/bulklight_on"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "doorsentities:item/crucifix"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "doorsentities:item/lighter_off"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "doorsentities:item/lighter_flick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "doorsentities:item/lighter_on"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "doorsentities:item/vitamins_closed"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "doorsentities:item/vitamins_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "doorsentities:item/candle_off"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "doorsentities:item/candle_off_middle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "doorsentities:item/candle_off_low"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "doorsentities:item/candle_on"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "doorsentities:item/candle_on_middle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "doorsentities:item/candle_on_low"
+        }
+    ]
+}

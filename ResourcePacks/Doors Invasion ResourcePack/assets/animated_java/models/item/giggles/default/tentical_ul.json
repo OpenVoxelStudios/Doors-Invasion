@@ -1,0 +1,47 @@
+{
+	"textures": {
+		"9": "animated_java:item/giggles/giggles"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [6, 6.5, 2],
+			"to": [10, 9.5, 8],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [5.58579, 8.75, 9.8995]
+			},
+			"faces": {
+				"north": {
+					"uv": [10.5, 5.25, 11.5, 6],
+					"texture": "#9"
+				},
+				"east": {
+					"uv": [8.5, 9.5, 10, 10.25],
+					"texture": "#9"
+				},
+				"south": {
+					"uv": [8, 10.5, 9, 11.25],
+					"texture": "#9"
+				},
+				"west": {
+					"uv": [1.25, 9.75, 2.75, 10.5],
+					"texture": "#9"
+				},
+				"up": {
+					"uv": [9.25, 3.25, 8.25, 1.75],
+					"texture": "#9"
+				},
+				"down": {
+					"uv": [9.25, 3.5, 8.25, 5],
+					"texture": "#9"
+				}
+			}
+		}
+	]
+}

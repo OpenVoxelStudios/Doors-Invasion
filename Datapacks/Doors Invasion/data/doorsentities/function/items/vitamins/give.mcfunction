@@ -1,0 +1,1 @@
+give @s minecraft:poisonous_potato[custom_name='["",{"text":"Vitamins","italic":false}]',custom_model_data=9,max_stack_size=3,food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:999999999},custom_data={"vitamins":true},rarity=uncommon] 1

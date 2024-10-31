@@ -1,0 +1,141 @@
+{
+    "giggles.crucifix": {
+        "sounds": [
+            {
+                "name": "doorsentities:giggles/crucifix",
+                "preload": "false"
+            }
+        ]
+    },
+    "giggles.dead": {
+        "sounds": [
+            {
+                "name": "doorsentities:giggles/dead",
+                "preload": "false"
+            }
+        ]
+    },
+    "giggles.jumpscare": {
+        "sounds": [
+            {
+                "name": "doorsentities:giggles/jumpscare",
+                "preload": "false"
+            }
+        ]
+    },
+    "giggles.attack": {
+        "sounds": [
+            {
+                "name": "doorsentities:giggles/attack",
+                "preload": "false"
+            }
+        ]
+    },
+    "giggles.laugh": {
+        "sounds": [
+            {
+                "name": "doorsentities:giggles/laugh1",
+                "preload": "false"
+            },
+            {
+                "name": "doorsentities:giggles/laugh2",
+                "preload": "false"
+            }
+        ]
+    },
+    "giggles.blinded": {
+        "sounds": [
+            {
+                "name": "doorsentities:giggles/blinded1",
+                "preload": "false"
+            },
+            {
+                "name": "doorsentities:giggles/blinded2",
+                "preload": "false"
+            }
+        ]
+    },
+
+    "item.crucifix.success": {
+        "sounds": [
+            {
+                "name": "doorsentities:items/crucifix/success",
+                "preload": "false"
+            }
+        ]
+    },
+    "item.crucifix.fail": {
+        "sounds": [
+            {
+                "name": "doorsentities:items/crucifix/fail",
+                "preload": "false"
+            }
+        ]
+    },
+
+    "item.flashlight.turn_on": {
+        "sounds": [
+            {
+                "name": "doorsentities:items/flashlight/turn_on",
+                "preload": "false"
+            }
+        ]
+    },
+    "item.flashlight.turn_off": {
+        "sounds": [
+            {
+                "name": "doorsentities:items/flashlight/turn_off",
+                "preload": "false"
+            }
+        ]
+    },
+
+    "item.lighter.turn_on": {
+        "sounds": [
+            {
+                "name": "doorsentities:items/lighter/turn_on",
+                "preload": "false"
+            }
+        ]
+    },
+    "item.lighter.turn_off": {
+        "sounds": [
+            {
+                "name": "doorsentities:items/lighter/turn_off",
+                "preload": "false"
+            }
+        ]
+    },
+    "item.lighter.flick": {
+        "sounds": [
+            {
+                "name": "doorsentities:items/lighter/flick",
+                "preload": "false"
+            }
+        ]
+    },
+    "item.vitamins.eat": {
+        "sounds": [
+            {
+                "name": "doorsentities:items/vitamins/eat",
+                "preload": "false"
+            }
+        ]
+    },
+    "item.candle.equiped": {
+        "sounds": [
+            {
+                "name": "doorsentities:items/candle/equiped",
+                "preload": "false"
+            }
+        ]
+    },
+    "item.candle.die": {
+        "sounds": [
+            {
+                "name": "doorsentities:items/candle/die",
+                "preload": "false"
+            }
+        ]
+    }
+}

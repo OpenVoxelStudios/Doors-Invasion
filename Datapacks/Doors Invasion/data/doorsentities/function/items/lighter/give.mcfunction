@@ -1,0 +1,1 @@
+give @s minecraft:poisonous_potato[custom_name='["",{"text":"Lighter","italic":false}]',custom_model_data=6,max_stack_size=1,food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:999999999},custom_data={"lighter":true},rarity=uncommon,max_damage=10] 1

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:gray_dye",
+            "count": 1,
+            "components": {
+                "minecraft:custom_model_data": 5
+            }
+        },
+        "title": {
+            "text": "Trickshot"
+        },
+        "description": [
+            {
+                "text": "\"Hooplah!\"\n",
+                "color": "gray"
+            },
+            {
+                "text": "Hit Giggle with an arrow.",
+                "color": "white"
+            }
+        ],
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "doorsentities:doors/giggles",
+    "criteria": {
+        "nuhuh": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "sends_telemetry_event": true
+}

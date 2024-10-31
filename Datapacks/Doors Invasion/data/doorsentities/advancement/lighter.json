@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:poisonous_potato"
+                    ],
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "lighter": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "doorsentities:items/lighter/toggle"
+    }
+}

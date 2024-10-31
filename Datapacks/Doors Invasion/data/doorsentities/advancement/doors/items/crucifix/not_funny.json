@@ -1,0 +1,34 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:gray_dye",
+            "count": 1,
+            "components": {
+                "minecraft:custom_model_data": 4
+            }
+        },
+        "title": {
+            "text": "Not Funny"
+        },
+        "description": [
+            {
+                "text": "\"You see, that's not funny.\"\n",
+                "color": "gray"
+            },
+            {
+                "text": "Use a Crucifix against Giggle.",
+                "color": "white"
+            }
+        ],
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "doorsentities:doors/items/crucifix",
+    "criteria": {
+        "nuhuh": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "sends_telemetry_event": true
+}

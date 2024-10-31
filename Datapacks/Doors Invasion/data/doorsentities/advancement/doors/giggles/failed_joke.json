@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:gray_dye",
+            "count": 1,
+            "components": {
+                "minecraft:custom_model_data": 6
+            }
+        },
+        "title": {
+            "text": "Failed Joke"
+        },
+        "description": [
+            {
+                "text": "\"WHAT WAS THAT FOR?!\"\n",
+                "color": "gray"
+            },
+            {
+                "text": "Break the block that Giggles sits on.",
+                "color": "white"
+            }
+        ],
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "doorsentities:doors/giggles",
+    "criteria": {
+        "nuhuh": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "sends_telemetry_event": true
+}

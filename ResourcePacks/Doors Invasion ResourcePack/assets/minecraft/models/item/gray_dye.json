@@ -1,0 +1,74 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/gray_dye"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "doorsentities:item/icons/doorsentities"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "doorsentities:item/icons/giggles"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "doorsentities:item/advancements/just_a_prank"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "doorsentities:item/advancements/not_funny"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "doorsentities:item/advancements/trickshot"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "doorsentities:item/advancements/failed_joke"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "doorsentities:item/advancements/helping_hand"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "doorsentities:item/advancements/items"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "doorsentities:item/advancements/crucifix_player"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "doorsentities:item/advancements/crucifix_success"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "doorsentities:item/advancements/crucifix_fail"
+        }
+    ]
+}

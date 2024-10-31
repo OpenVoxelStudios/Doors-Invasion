@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:poisonous_potato",
+            "count": 1,
+            "components": {
+                "minecraft:custom_model_data": 14
+            }
+        },
+        "title": {
+            "text": "Candle Aquired"
+        },
+        "description": [
+            {
+                "text": "Litteraly a candle in a pot.\n",
+                "color": "white"
+            },
+            {
+                "text": "If that turns off.. ..RUN",
+                "color": "white"
+            }
+        ],
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "doorsentities:doors/items",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "doorsentities:candle"
+            }
+        }
+    },
+    "sends_telemetry_event": true
+}

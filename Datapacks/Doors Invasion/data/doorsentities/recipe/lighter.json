@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {
+            "item": "minecraft:coal"
+        },
+        {
+            "item": "minecraft:flint"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+            "minecraft:custom_name": "[\"\",{\"text\":\"Lighter\",\"italic\":false}]",
+            "minecraft:custom_model_data": 6,
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 999999999
+            },
+            "minecraft:custom_data": {
+                "lighter": true
+            },
+            "minecraft:rarity": "uncommon",
+            "max_stack_size": 1,
+            "max_damage": 3,
+            "damage": 0
+        }
+    }
+}

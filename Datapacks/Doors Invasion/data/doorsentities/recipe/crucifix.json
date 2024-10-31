@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " 1 ",
+        "121",
+        " 1 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:diamond"
+        },
+        "2": {
+            "item": "minecraft:totem_of_undying"
+        }
+    },
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "[\"\",{\"text\":\"Crucifix\",\"italic\":false}]",
+            "minecraft:custom_model_data": 5,
+            "!minecraft:food": {},
+            "minecraft:custom_data": {
+                "crucifix": true
+            },
+            "minecraft:rarity": "epic",
+            "max_stack_size": 1
+        }
+    }
+}

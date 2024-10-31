@@ -1,0 +1,2 @@
+execute as @e[tag=crucifix.killpassengers] run function doorsentities:items/crucifix/killpassengers
+execute as @e[tag=crucifix.unmountpassengers] run function doorsentities:items/crucifix/unmountpassengers

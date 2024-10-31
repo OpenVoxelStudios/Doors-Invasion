@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand poisonous_potato[custom_data~{"vitamins":true},custom_model_data=10] run item modify entity @s weapon.mainhand doorsentities:vitamins_close
+execute if items entity @s weapon.offhand poisonous_potato[custom_data~{"vitamins":true},custom_model_data=10] run item modify entity @s weapon.offhand doorsentities:vitamins_close

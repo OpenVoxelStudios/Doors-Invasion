@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "description": {"text":"\"Doors entities and items made their way into your world!\"","color":"red"},
+    "supported_formats": {
+      "min_inclusive": 34,
+      "max_inclusive": 42
+    }
+  }
+}

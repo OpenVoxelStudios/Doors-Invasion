@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:poisonous_potato",
+            "count": 1,
+            "components": {
+                "minecraft:custom_model_data": 8
+            }
+        },
+        "title": {
+            "text": "Lighter Aquired"
+        },
+        "description": [
+            {
+                "text": "Warning: hot flame!",
+                "color": "white"
+            }
+        ],
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "doorsentities:doors/items",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "doorsentities:lighter"
+            }
+        }
+    },
+    "sends_telemetry_event": true
+}
